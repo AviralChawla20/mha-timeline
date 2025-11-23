@@ -25,7 +25,7 @@ const generateEpisodes = (seasonNum, startEp, endEp, themeColor, links = {}) => 
 
 // Season 1 (Yellow/Gold - All Might Era)
 const season1Data = [
-  { title: "Izuku Midoriya: Origin", detail: "Season 1 - Episode 1", type: "episode", season: "Season 1", episodeNumber: 1, theme: "yellow", videoUrl: "https://drive.google.com/file/d/1X9D_xu24UjqUjnwsP4qQuWWQNeIdm2qt/view?usp=drive_link" },
+  { title: "Izuku Midoriya: Origin", detail: "Season 1 - Episode 1", type: "episode", season: "Season 1", episodeNumber: 1, theme: "yellow", videoUrl: "https://drive.google.com/file/d/1SleDFE3sPjLDiC0sN5fqteqqK80pHpR6/view?usp=drive_link" },
   { title: "What It Takes to Be a Hero", detail: "Season 1 - Episode 2", type: "episode", season: "Season 1", episodeNumber: 2, theme: "yellow" },
   { title: "Roaring Muscles", detail: "Season 1 - Episode 3", type: "episode", season: "Season 1", episodeNumber: 3, theme: "yellow" },
   { title: "Start Line", detail: "Season 1 - Episode 4", type: "episode", season: "Season 1", episodeNumber: 4, theme: "yellow" },
@@ -260,7 +260,7 @@ const animeData = [
   ...season5Data_p3,
   
   { title: "Departure", detail: "Special", type: "special", note: "Before World Heroes’ Mission" ,theme: "pink"},
-  { title: "World Heroes’ Mission", detail: "Movie 3", type: "movie" , theme:'lime'},
+  { title: "World Heroes’ Mission", detail: "Movie 3", type: "movie" , theme:'lime', videoUrl:"https://drive.google.com/file/d/1sHoFSmEbfXRKYjfF1B5C7VGnLoa3_4DJ/view?usp=drive_link"},
   { title: "Hero League Baseball", detail: "OVA / Special", type: "special" ,theme: "pink"},
   { title: "Laugh! As If You Are in Hell", detail: "OVA / Special", type: "special" ,theme: "pink"},
   
@@ -276,7 +276,7 @@ const animeData = [
   ...season7Data_p1,
   
   { title: "A Piece of Cake", detail: "OVA / Special", type: "special" ,theme: "pink"},
-  { title: "You’re Next", detail: "Movie 4", type: "movie" , theme:'lime'},
+  { title: "You’re Next", detail: "Movie 4", type: "movie" , theme:'lime', videoUrl: "https://drive.google.com/file/d/1wySSAZ-wHvw72rw_G8oVJ9wjpVulpJ-E/view?usp=drive_link"},
   
   // Season 7 Part 2 (Orange)
   ...season7Data_p2,
