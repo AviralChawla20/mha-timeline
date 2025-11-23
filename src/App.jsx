@@ -364,7 +364,7 @@ const libraryData = [
         image: "https://i.ibb.co/1JM5msVR/US-Volume-1-Scholastic-Cover.png",
         author: "Kohei Horikoshi",
         date: "4 August 2015",
-        category: "Variant Cover",
+        category: "Main Series",
         language: "English",
         description: "Midoriya inherits the superpower of the world’s greatest hero, but greatness won’t come easy. What would the world be like if 80 percent of the population manifested superpowers called “Quirks”? Heroes and villains would be battling it out everywhere! Being a hero would mean learning to use your power, but where would you go to study? The Hero Academy of course! But what would you do if you were one of the 20 percent who were born Quirkless? Middle school student Izuku Midoriya wants to be a hero more than anything, but he hasn’t got an ounce of power in him. With no chance of ever getting into the prestigious U.A. High School for budding heroes, his life is looking more and more like a dead end. Then an encounter with All Might, the greatest hero of them all, gives him a chance to change his destiny…"
     },
@@ -1388,14 +1388,157 @@ const TimelineCard = ({ item, index, borderColor, textColor, shadowColor, themeC
 
 // 
 
+// const LibraryPage = ({ onNavigate }) => {
+//     const [selectedBook, setSelectedBook] = useState(null);
+
+//     return (
+//         // Root container: No scroll here, just takes up full space
+//         <div className="h-full w-full relative bg-slate-900">
+            
+//             {/* 1. SCROLLABLE AREA: Independent container for the books */}
+//             <div className="absolute inset-0 w-full h-full overflow-y-auto hide-scrollbar px-6 py-24 perspective-container">
+//                 <div className="max-w-6xl mx-auto">
+//                     <div className="text-center mb-12 animate-[slideDown_0.5s_ease-out]">
+//                         <h2 className="text-pink-400 font-black tracking-widest uppercase text-lg mb-2">My Hero Academia</h2>
+//                         <h1 className="text-5xl font-black uppercase italic text-white" style={{ textShadow: '4px 4px 0px #be185d' }}>
+//                             Complete Literary Archive
+//                         </h1>
+//                     </div>
+
+//                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 pb-32"> {/* Added pb-32 so content isn't hidden behind button */}
+//                         {libraryData.map((book) => (
+//                             <div 
+//                                 key={book.id}
+//                                 onClick={() => setSelectedBook(book)}
+//                                 className="group relative cursor-pointer"
+//                             >
+//                                 <div className="aspect-[2/3] w-full rounded-lg overflow-hidden border-2 border-white/10 shadow-2xl transition-all duration-300 group-hover:scale-105 group-hover:border-pink-500 group-hover:shadow-pink-500/50 relative bg-slate-800">
+//                                     <img 
+//                                         src={book.image} 
+//                                         alt={book.title}
+//                                         className="w-full h-full object-cover"
+//                                     />
+//                                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+//                                         <span className="text-white font-bold text-sm uppercase tracking-wider">View File</span>
+//                                     </div>
+//                                 </div>
+//                                 <h3 className="mt-4 text-center font-bold text-slate-300 group-hover:text-pink-400 transition-colors uppercase text-sm">{book.title}</h3>
+//                             </div>
+//                         ))}
+//                     </div>
+//                 </div>
+//             </div>
+
+//             {/* 2. FLOATING UI: Button stays pinned to bottom, outside scroll area */}
+//             <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-40 pointer-events-none">
+//                 <button 
+//                     onClick={() => onNavigate('home')} 
+//                     className="flex items-center gap-2 px-6 py-3 rounded-full bg-slate-800 border border-white/20 hover:bg-slate-700 transition-colors shadow-lg pointer-events-auto"
+//                 >
+//                     <HomeIcon size={18} />
+//                     <span className="text-xs font-bold uppercase tracking-widest">Return Home</span>
+//                 </button>
+//             </div>
+
+//             {/* 3. MODAL: Fixed overlay independent of scroll position */}
+//             {selectedBook && (
+//                 <div className="fixed inset-0 z-[60] flex items-center justify-center p-4 bg-slate-900/95 backdrop-blur-md animate-[fadeIn_0.2s_ease-out]">
+//                     <div className="bg-slate-900 border border-pink-500/50 w-full max-w-4xl max-h-[90vh] rounded-3xl shadow-2xl overflow-hidden relative flex flex-col md:flex-row">
+//                         <button 
+//                             onClick={() => setSelectedBook(null)}
+//                             className="absolute top-4 right-4 z-10 p-2 bg-black/50 hover:bg-pink-600 rounded-full text-white transition-colors"
+//                         >
+//                             <X size={24} />
+//                         </button>
+
+//                         {/* Image Side */}
+//                         <div className="w-full md:w-2/5 h-64 md:h-auto bg-slate-800 relative shrink-0">
+//                             <img 
+//                                 src={selectedBook.image} 
+//                                 alt={selectedBook.title}
+//                                 className="w-full h-full object-cover object-center"
+//                             />
+//                         </div>
+
+//                         {/* Info Side (Inner Scroll) */}
+//                         <div className="flex-1 p-8 overflow-y-auto custom-scrollbar">
+//                             <div className="mb-6">
+//                                 <span className="inline-block px-3 py-1 rounded bg-pink-600/20 border border-pink-500 text-pink-400 text-xs font-bold uppercase tracking-widest mb-2">
+//                                     {selectedBook.category}
+//                                 </span>
+//                                 <h2 className="text-3xl md:text-4xl font-black italic uppercase text-white leading-tight mb-4">
+//                                     {selectedBook.title}
+//                                 </h2>
+                                
+//                                 <div className="flex flex-wrap gap-4 text-sm text-slate-400 mb-6 font-mono">
+//                                     <div className="flex items-center gap-2">
+//                                         <User size={16} className="text-pink-500" />
+//                                         <span>{selectedBook.author}</span>
+//                                     </div>
+//                                     <div className="flex items-center gap-2">
+//                                         <Calendar size={16} className="text-pink-500" />
+//                                         <span>{selectedBook.date}</span>
+//                                     </div>
+//                                     <div className="flex items-center gap-2">
+//                                         <Globe size={16} className="text-pink-500" />
+//                                         <span>{selectedBook.language}</span>
+//                                     </div>
+//                                 </div>
+//                             </div>
+
+//                             <div className="prose prose-invert prose-pink max-w-none">
+//                                 <p className="text-slate-300 leading-relaxed whitespace-pre-line">
+//                                     {selectedBook.description}
+//                                 </p>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+//             )}
+//         </div>
+//     );
+// };
 const LibraryPage = ({ onNavigate }) => {
     const [selectedBook, setSelectedBook] = useState(null);
+    
+    // State to track which categories are open. 
+    const [expandedSections, setExpandedSections] = useState({
+        "Main Series": false, 
+        "Movie Tie-In": false,
+        "Variant Cover": false
+    });
+
+    const toggleSection = (category) => {
+        setExpandedSections(prev => ({
+            ...prev,
+            [category]: !prev[category]
+        }));
+    };
+
+    // Helper: Group books by category
+    const getGroupedBooks = () => {
+        const groups = {};
+        libraryData.forEach(book => {
+            if (!groups[book.category]) {
+                groups[book.category] = [];
+            }
+            groups[book.category].push(book);
+        });
+        return groups;
+    };
+
+    const groupedLibrary = getGroupedBooks();
+    // Get categories and sort them (Main Series first, then alphabetical)
+    const categories = Object.keys(groupedLibrary).sort((a, b) => {
+        if (a === "Main Series") return -1;
+        if (b === "Main Series") return 1;
+        return a.localeCompare(b);
+    });
 
     return (
-        // Root container: No scroll here, just takes up full space
         <div className="h-full w-full relative bg-slate-900">
             
-            {/* 1. SCROLLABLE AREA: Independent container for the books */}
+            {/* SCROLLABLE AREA */}
             <div className="absolute inset-0 w-full h-full overflow-y-auto hide-scrollbar px-6 py-24 perspective-container">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-12 animate-[slideDown_0.5s_ease-out]">
@@ -1405,31 +1548,67 @@ const LibraryPage = ({ onNavigate }) => {
                         </h1>
                     </div>
 
-                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 pb-32"> {/* Added pb-32 so content isn't hidden behind button */}
-                        {libraryData.map((book) => (
-                            <div 
-                                key={book.id}
-                                onClick={() => setSelectedBook(book)}
-                                className="group relative cursor-pointer"
-                            >
-                                <div className="aspect-[2/3] w-full rounded-lg overflow-hidden border-2 border-white/10 shadow-2xl transition-all duration-300 group-hover:scale-105 group-hover:border-pink-500 group-hover:shadow-pink-500/50 relative bg-slate-800">
-                                    <img 
-                                        src={book.image} 
-                                        alt={book.title}
-                                        className="w-full h-full object-cover"
-                                    />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
-                                        <span className="text-white font-bold text-sm uppercase tracking-wider">View File</span>
+                    {/* CATEGORY LOOPS */}
+                    <div className="pb-32 space-y-8">
+                        {categories.map((category) => (
+                            <div key={category} className="w-full">
+                                {/* THE BAR (Clickable Header) */}
+                                <button 
+                                    onClick={() => toggleSection(category)}
+                                    className="w-full flex items-center justify-between p-5 bg-gradient-to-r from-slate-800 to-slate-900 border-l-4 border-pink-500 rounded-r-xl shadow-lg hover:shadow-pink-500/10 hover:brightness-110 transition-all duration-300 group mb-4"
+                                >
+                                    <div className="flex items-center gap-4">
+                                        <Book size={24} className="text-pink-500" />
+                                        <h3 className="text-2xl font-black uppercase italic text-white tracking-tight group-hover:text-pink-400 transition-colors">
+                                            {category}
+                                        </h3>
+                                        <span className="text-slate-500 text-xs font-bold bg-slate-950 px-2 py-1 rounded-md">
+                                            {groupedLibrary[category].length} ITEMS
+                                        </span>
                                     </div>
+                                    <ChevronRight 
+                                        size={24} 
+                                        className={`text-slate-400 transition-transform duration-300 ${expandedSections[category] ? 'rotate-90 text-pink-500' : ''}`}
+                                    />
+                                </button>
+
+                                {/* THE GRID (Conditional Render) */}
+                                <div 
+                                    className={`grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 transition-all duration-700 ease-in-out overflow-hidden ${
+                                        // CHANGED: Increased max-h to 50000px to accommodate large libraries
+                                        // CHANGED: Added pb-8 to ensure bottom text/hover effects aren't clipped
+                                        expandedSections[category] ? 'opacity-100 max-h-[50000px] py-4 pb-12' : 'opacity-0 max-h-0'
+                                    }`}
+                                >
+                                    {groupedLibrary[category].map((book) => (
+                                        <div 
+                                            key={book.id}
+                                            onClick={() => setSelectedBook(book)}
+                                            className="group/card relative cursor-pointer"
+                                        >
+                                            <div className="aspect-[2/3] w-full rounded-lg overflow-hidden border-2 border-white/10 shadow-2xl transition-all duration-300 group-hover/card:scale-105 group-hover/card:border-pink-500 group-hover/card:shadow-pink-500/50 relative bg-slate-800">
+                                                <img 
+                                                    src={book.image} 
+                                                    alt={book.title}
+                                                    className="w-full h-full object-cover"
+                                                />
+                                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover/card:opacity-100 transition-opacity flex items-end p-4">
+                                                    <span className="text-white font-bold text-sm uppercase tracking-wider">View File</span>
+                                                </div>
+                                            </div>
+                                            <h3 className="mt-4 text-center font-bold text-slate-300 group-hover/card:text-pink-400 transition-colors uppercase text-sm px-2">
+                                                {book.title}
+                                            </h3>
+                                        </div>
+                                    ))}
                                 </div>
-                                <h3 className="mt-4 text-center font-bold text-slate-300 group-hover:text-pink-400 transition-colors uppercase text-sm">{book.title}</h3>
                             </div>
                         ))}
                     </div>
                 </div>
             </div>
 
-            {/* 2. FLOATING UI: Button stays pinned to bottom, outside scroll area */}
+            {/* FLOATING RETURN BUTTON */}
             <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-40 pointer-events-none">
                 <button 
                     onClick={() => onNavigate('home')} 
@@ -1440,7 +1619,7 @@ const LibraryPage = ({ onNavigate }) => {
                 </button>
             </div>
 
-            {/* 3. MODAL: Fixed overlay independent of scroll position */}
+            {/* MODAL */}
             {selectedBook && (
                 <div className="fixed inset-0 z-[60] flex items-center justify-center p-4 bg-slate-900/95 backdrop-blur-md animate-[fadeIn_0.2s_ease-out]">
                     <div className="bg-slate-900 border border-pink-500/50 w-full max-w-4xl max-h-[90vh] rounded-3xl shadow-2xl overflow-hidden relative flex flex-col md:flex-row">
@@ -1460,7 +1639,7 @@ const LibraryPage = ({ onNavigate }) => {
                             />
                         </div>
 
-                        {/* Info Side (Inner Scroll) */}
+                        {/* Info Side */}
                         <div className="flex-1 p-8 overflow-y-auto custom-scrollbar">
                             <div className="mb-6">
                                 <span className="inline-block px-3 py-1 rounded bg-pink-600/20 border border-pink-500 text-pink-400 text-xs font-bold uppercase tracking-widest mb-2">
