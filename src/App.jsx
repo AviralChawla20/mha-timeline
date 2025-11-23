@@ -26,48 +26,48 @@ const generateEpisodes = (seasonNum, startEp, endEp, themeColor, links = {}) => 
 // Season 1 (Yellow/Gold - All Might Era)
 const season1Data = [
   { title: "Izuku Midoriya: Origin", detail: "Season 1 - Episode 1", type: "episode", season: "Season 1", episodeNumber: 1, theme: "yellow", videoUrl: "https://drive.google.com/file/d/1SleDFE3sPjLDiC0sN5fqteqqK80pHpR6/view?usp=drive_link" },
-  { title: "What It Takes to Be a Hero", detail: "Season 1 - Episode 2", type: "episode", season: "Season 1", episodeNumber: 2, theme: "yellow" },
-  { title: "Roaring Muscles", detail: "Season 1 - Episode 3", type: "episode", season: "Season 1", episodeNumber: 3, theme: "yellow" },
-  { title: "Start Line", detail: "Season 1 - Episode 4", type: "episode", season: "Season 1", episodeNumber: 4, theme: "yellow" },
-  { title: "What I Can Do For Now", detail: "Season 1 - Episode 5", type: "episode", season: "Season 1", episodeNumber: 5, theme: "yellow" },
-  { title: "Rage, You Damned Nerd", detail: "Season 1 - Episode 6", type: "episode", season: "Season 1", episodeNumber: 6, theme: "yellow" },
-  { title: "Deku vs. Kacchan", detail: "Season 1 - Episode 7", type: "episode", season: "Season 1", episodeNumber: 7, theme: "yellow" },
-  { title: "Bakugo's Start Line", detail: "Season 1 - Episode 8", type: "episode", season: "Season 1", episodeNumber: 8, theme: "yellow" },
-  { title: "Yeah, Just Do Your Best, Iida!", detail: "Season 1 - Episode 9", type: "episode", season: "Season 1", episodeNumber: 9, theme: "yellow" },
-  { title: "Encounter with the Unknown", detail: "Season 1 - Episode 10", type: "episode", season: "Season 1", episodeNumber: 10, theme: "yellow" },
-  { title: "Game Over", detail: "Season 1 - Episode 11", type: "episode", season: "Season 1", episodeNumber: 11, theme: "yellow" },
-  { title: "All Might", detail: "Season 1 - Episode 12", type: "episode", season: "Season 1", episodeNumber: 12, theme: "yellow" },
-  { title: "In Each of Our Hearts", detail: "Season 1 - Episode 13", type: "episode", season: "Season 1", episodeNumber: 13, theme: "yellow" },
+  { title: "What It Takes to Be a Hero", detail: "Season 1 - Episode 2", type: "episode", season: "Season 1", episodeNumber: 2, theme: "yellow", videoUrl: "https://drive.google.com/file/d/1NO3iX6Spr51Qz1ZBgVh9zeK8vss7LpJ6/view?usp=drive_link" },
+  { title: "Roaring Muscles", detail: "Season 1 - Episode 3", type: "episode", season: "Season 1", episodeNumber: 3, theme: "yellow" , videoUrl:"https://drive.google.com/file/d/1BBe9JOj2as8gIkCU1YwLY-54sqyRv29w/view?usp=drive_link"},
+  { title: "Start Line", detail: "Season 1 - Episode 4", type: "episode", season: "Season 1", episodeNumber: 4, theme: "yellow",videoUrl:"https://drive.google.com/file/d/1kuQRbuA_zsakejefYs9cR31xjcjy413A/view?usp=drive_link" },
+  { title: "What I Can Do For Now", detail: "Season 1 - Episode 5", type: "episode", season: "Season 1", episodeNumber: 5, theme: "yellow",videoUrl:"https://drive.google.com/file/d/1zRy_VpbSOItOY-I8l4ybMekR5a9XvTnR/view?usp=drive_link" },
+  { title: "Rage, You Damned Nerd", detail: "Season 1 - Episode 6", type: "episode", season: "Season 1", episodeNumber: 6, theme: "yellow" ,videoUrl:"https://drive.google.com/file/d/1yrbJ5DKbWSvpWUVt7gBDxN3tlwFzWAIf/view?usp=drive_link"},
+  { title: "Deku vs. Kacchan", detail: "Season 1 - Episode 7", type: "episode", season: "Season 1", episodeNumber: 7, theme: "yellow",videoUrl:"https://drive.google.com/file/d/1fZYXKpZpXBPPSnzHmF49A43BnczNOGDl/view?usp=drive_link" },
+  { title: "Bakugo's Start Line", detail: "Season 1 - Episode 8", type: "episode", season: "Season 1", episodeNumber: 8, theme: "yellow" ,videoUrl:"https://drive.google.com/file/d/1JQ5VRLXymxhGRB7pw53FaT6B1D0-w38f/view?usp=drive_link"},
+  { title: "Yeah, Just Do Your Best, Iida!", detail: "Season 1 - Episode 9", type: "episode", season: "Season 1", episodeNumber: 9, theme: "yellow" ,videoUrl:"https://drive.google.com/file/d/1V5c1HDmnvVubij4l5368DyDaMy0B4siA/view?usp=drive_link"},
+  { title: "Encounter with the Unknown", detail: "Season 1 - Episode 10", type: "episode", season: "Season 1", episodeNumber: 10, theme: "yellow",videoUrl:"https://drive.google.com/file/d/13hEsxODSAgwcUXi8Tnjo2RkI9CxJKsSx/view?usp=drive_link" },
+  { title: "Game Over", detail: "Season 1 - Episode 11", type: "episode", season: "Season 1", episodeNumber: 11, theme: "yellow" ,videoUrl:"https://drive.google.com/file/d/1IgchBcp-7DnMp-HrfsP58zjjknvFF9fA/view?usp=drive_link"},
+  { title: "All Might", detail: "Season 1 - Episode 12", type: "episode", season: "Season 1", episodeNumber: 12, theme: "yellow",videoUrl:"https://drive.google.com/file/d/1EH9JqSXHzwICTqMF502nIw8RA1423oam/view?usp=drive_link" },
+  { title: "In Each of Our Hearts", detail: "Season 1 - Episode 13", type: "episode", season: "Season 1", episodeNumber: 13, theme: "yellow" ,videoUrl:"https://drive.google.com/file/d/1_b_Si7cgWTYWi5O9DbMsyld5LAtBWIVy/view?usp=drive_link"},
 ];
 
 const season2Data_p1 = [
-  { title: "That’s the Idea, Ochaco", detail: "Season 2 - Episode 14", type: "episode", season: "Season 2", episodeNumber: 14, theme: "blue" },
-  { title: "Roaring Sports Festival", detail: "Season 2 - Episode 15", type: "episode", season: "Season 2", episodeNumber: 15, theme: "blue" },
-  { title: "In Their Own Quirky Ways", detail: "Season 2 - Episode 16", type: "episode", season: "Season 2", episodeNumber: 16, theme: "blue" },
-  { title: "Strategy, Strategy, Strategy", detail: "Season 2 - Episode 17", type: "episode", season: "Season 2", episodeNumber: 17, theme: "blue" },
-  { title: "Cavalry Battle Finale", detail: "Season 2 - Episode 18", type: "episode", season: "Season 2", episodeNumber: 18, theme: "blue" },
-  { title: "The Boy Born with Everything", detail: "Season 2 - Episode 19", type: "episode", season: "Season 2", episodeNumber: 19, theme: "blue" },
-  { title: "Victory or Defeat", detail: "Season 2 - Episode 20", type: "episode", season: "Season 2", episodeNumber: 20, theme: "blue" },
-  { title: "Battle on, Challengers!", detail: "Season 2 - Episode 21", type: "episode", season: "Season 2", episodeNumber: 21, theme: "blue" },
-  { title: "Bakugo vs. Uraraka", detail: "Season 2 - Episode 22", type: "episode", season: "Season 2", episodeNumber: 22, theme: "blue" },
-  { title: "Shoto Todoroki: Origin", detail: "Season 2 - Episode 23", type: "episode", season: "Season 2", episodeNumber: 23, theme: "blue" },
-  { title: "Fight On, Iida", detail: "Season 2 - Episode 24", type: "episode", season: "Season 2", episodeNumber: 24, theme: "blue" },
-  { title: "Todoroki vs. Bakugo", detail: "Season 2 - Episode 25", type: "episode", season: "Season 2", episodeNumber: 25, theme: "blue" },
-  { title: "Encounter", detail: "Season 2 - Episode 26", type: "episode", season: "Season 2", episodeNumber: 26, theme: "blue" },
-  { title: "Bizarre! Gran Torino Appears", detail: "Season 2 - Episode 27", type: "episode", season: "Season 2", episodeNumber: 27, theme: "blue" },
-  { title: "Midoriya and Shigaraki", detail: "Season 2 - Episode 28", type: "episode", season: "Season 2", episodeNumber: 28, theme: "blue" },
-  { title: "Hero Killer: Stain vs U.A. Students", detail: "Season 2 - Episode 29", type: "episode", season: "Season 2", episodeNumber: 29, theme: "blue" },
-  { title: "Climax", detail: "Season 2 - Episode 30", type: "episode", season: "Season 2", episodeNumber: 30, theme: "blue" },
-  { title: "The Aftermath of Hero Killer: Stain", detail: "Season 2 - Episode 31", type: "episode", season: "Season 2", episodeNumber: 31, theme: "blue" },
-  { title: "Everyone’s Internships", detail: "Season 2 - Episode 32", type: "episode", season: "Season 2", episodeNumber: 32, theme: "blue" },
-  { title: "Listen Up!! A Tale From the Past", detail: "Season 2 - Episode 33", type: "episode", season: "Season 2", episodeNumber: 33, theme: "blue" },
+  { title: "That’s the Idea, Ochaco", detail: "Season 2 - Episode 14", type: "episode", season: "Season 2", episodeNumber: 1, theme: "blue",videoUrl:"https://drive.google.com/file/d/1oi_991ZdGiaxr9NttQLpsk_I4LC92a2r/view?usp=drive_link" },
+  { title: "Roaring Sports Festival", detail: "Season 2 - Episode 15", type: "episode", season: "Season 2", episodeNumber: 2, theme: "blue",videoUrl:"https://drive.google.com/file/d/1nKKVZ0-8Az9ypHXY8ux0N2_iSNnykxO9/view?usp=drive_link" },
+  { title: "In Their Own Quirky Ways", detail: "Season 2 - Episode 16", type: "episode", season: "Season 2", episodeNumber: 3, theme: "blue",videoUrl:"https://drive.google.com/file/d/1zV9Zi46Rc6MVY-IE5f0XkIomZYzgLcp3/view?usp=drive_link" },
+  { title: "Strategy, Strategy, Strategy", detail: "Season 2 - Episode 17", type: "episode", season: "Season 2", episodeNumber: 4, theme: "blue",videoUrl:"https://drive.google.com/file/d/1E2Pg4mFTt1ME-sVhlkKlDCjkny9CT2O5/view?usp=drive_link" },
+  { title: "Cavalry Battle Finale", detail: "Season 2 - Episode 18", type: "episode", season: "Season 2", episodeNumber: 5, theme: "blue",videoUrl:"https://drive.google.com/file/d/1lxPDRf6O5R4e-J2dZyVVcDgoqAOhBWpT/view?usp=drive_link" },
+  { title: "The Boy Born with Everything", detail: "Season 2 - Episode 19", type: "episode", season: "Season 2", episodeNumber: 6, theme: "blue" ,videoUrl:"https://drive.google.com/file/d/1jOkgq6mB45rSFtdFzWNazzpxTI4eFs3N/view?usp=drive_link"},
+  { title: "Victory or Defeat", detail: "Season 2 - Episode 20", type: "episode", season: "Season 2", episodeNumber: 7, theme: "blue" ,videoUrl:"https://drive.google.com/file/d/1yCufzKwDmd7NEKwg3Yz8X9VXBJXQAj3z/view?usp=drive_link"},
+  { title: "Battle on, Challengers!", detail: "Season 2 - Episode 21", type: "episode", season: "Season 2", episodeNumber: 8, theme: "blue" ,videoUrl:"https://drive.google.com/file/d/1iRUQNhfCvWAQtPZkDhLgY6WTEeWRPKyw/view?usp=drive_link"},
+  { title: "Bakugo vs. Uraraka", detail: "Season 2 - Episode 22", type: "episode", season: "Season 2", episodeNumber: 9, theme: "blue" },
+  { title: "Shoto Todoroki: Origin", detail: "Season 2 - Episode 23", type: "episode", season: "Season 2", episodeNumber: 10, theme: "blue" },
+  { title: "Fight On, Iida", detail: "Season 2 - Episode 24", type: "episode", season: "Season 2", episodeNumber: 11, theme: "blue" },
+  { title: "Todoroki vs. Bakugo", detail: "Season 2 - Episode 25", type: "episode", season: "Season 2", episodeNumber: 12, theme: "blue" },
+  { title: "Encounter", detail: "Season 2 - Episode 26", type: "episode", season: "Season 2", episodeNumber: 13, theme: "blue" },
+  { title: "Bizarre! Gran Torino Appears", detail: "Season 2 - Episode 27", type: "episode", season: "Season 2", episodeNumber: 14, theme: "blue" },
+  { title: "Midoriya and Shigaraki", detail: "Season 2 - Episode 28", type: "episode", season: "Season 2", episodeNumber: 15, theme: "blue" },
+  { title: "Hero Killer: Stain vs U.A. Students", detail: "Season 2 - Episode 29", type: "episode", season: "Season 2", episodeNumber: 16, theme: "blue" },
+  { title: "Climax", detail: "Season 2 - Episode 30", type: "episode", season: "Season 2", episodeNumber: 17, theme: "blue" },
+  { title: "The Aftermath of Hero Killer: Stain", detail: "Season 2 - Episode 31", type: "episode", season: "Season 2", episodeNumber: 18, theme: "blue" },
+  { title: "Everyone’s Internships", detail: "Season 2 - Episode 32", type: "episode", season: "Season 2", episodeNumber: 19, theme: "blue" },
+  { title: "Listen Up!! A Tale From the Past", detail: "Season 2 - Episode 33", type: "episode", season: "Season 2", episodeNumber: 20, theme: "blue" },
 ];
 
-const season2Data_p2 = [  { title: "Gear up for Final Exams", detail: "Season 2 - Episode 34", type: "episode", season: "Season 2", episodeNumber: 34, theme: "blue" },
-  { title: "Yaoyorozu: Rising", detail: "Season 2 - Episode 35", type: "episode", season: "Season 2", episodeNumber: 35, theme: "blue" },
-  { title: "Struggle!!", detail: "Season 2 - Episode 36", type: "episode", season: "Season 2", episodeNumber: 36, theme: "blue" },
-  { title: "Katsuki Bakugo: Origin", detail: "Season 2 - Episode 37", type: "episode", season: "Season 2", episodeNumber: 37, theme: "blue" },
-  { title: "Encounter", detail: "Season 2 - Episode 38", type: "episode", season: "Season 2", episodeNumber: 38, theme: "blue" },];
+const season2Data_p2 = [  { title: "Gear up for Final Exams", detail: "Season 2 - Episode 34", type: "episode", season: "Season 2", episodeNumber: 21, theme: "blue" },
+  { title: "Yaoyorozu: Rising", detail: "Season 2 - Episode 35", type: "episode", season: "Season 2", episodeNumber: 22, theme: "blue" },
+  { title: "Struggle!!", detail: "Season 2 - Episode 36", type: "episode", season: "Season 2", episodeNumber: 23, theme: "blue" },
+  { title: "Katsuki Bakugo: Origin", detail: "Season 2 - Episode 37", type: "episode", season: "Season 2", episodeNumber: 24, theme: "blue" },
+  { title: "Encounter", detail: "Season 2 - Episode 38", type: "episode", season: "Season 2", episodeNumber: 25, theme: "blue" },];
 
 const season3Data_p1 = [  { title: "Special Episode: Save the World With Love!!", detail: "Season 3 - Episode 58", type: "episode", season: "Season 3", episodeNumber: 58, theme: "red" },];
   const season3Data_p2 = [
@@ -552,6 +552,102 @@ const libraryData = [
 
 // --- COMPONENTS ---
 
+// const WatchPage = ({ episode, onNavigate, onBack }) => {
+//     if (!episode) return null;
+
+//     // Convert view link to preview link for embedding if it's a google drive link
+//     let embedUrl = episode.videoUrl;
+//     if (embedUrl && embedUrl.includes('drive.google.com') && embedUrl.includes('/view')) {
+//         embedUrl = embedUrl.replace('/view', '/preview');
+//     }
+
+//     // Color mapping for WatchPage UI based on episode theme
+//     const getThemeClasses = (theme) => {
+//         switch(theme) {
+//             case 'blue': return { text: 'text-blue-400', bg: 'bg-blue-500', hoverBg: 'hover:bg-blue-400', shadow: 'shadow-blue-500/20' };
+//             case 'red': return { text: 'text-red-500', bg: 'bg-red-600', hoverBg: 'hover:bg-red-500', shadow: 'shadow-red-600/20' };
+//             case 'emerald': return { text: 'text-emerald-400', bg: 'bg-emerald-500', hoverBg: 'hover:bg-emerald-400', shadow: 'shadow-emerald-500/20' };
+//             case 'purple': return { text: 'text-purple-400', bg: 'bg-purple-500', hoverBg: 'hover:bg-purple-400', shadow: 'shadow-purple-500/20' };
+//             case 'zinc': return { text: 'text-slate-400', bg: 'bg-slate-500', hoverBg: 'hover:bg-slate-400', shadow: 'shadow-slate-500/20' };
+//             case 'orange': return { text: 'text-orange-400', bg: 'bg-orange-500', hoverBg: 'hover:bg-orange-400', shadow: 'shadow-orange-500/20' };
+//           case 'pink': return { text: 'text-pink-400', bg: 'bg-pink-500', hoverBg: 'hover:bg-pink-500', shadow: 'shadow-pink-500/50' };
+//           case 'lime': return { text: 'text-lime-400', bg: 'bg-lime-500', hoverBg: 'hover:bg-lime-500', shadow: 'shadow-lime-500/50' };
+//             default: return { text: 'text-yellow-400', bg: 'bg-yellow-500', hoverBg: 'hover:bg-yellow-400', shadow: 'shadow-yellow-500/20' };
+//         }
+//     };
+
+//     const themeColors = getThemeClasses(episode.theme);
+
+//     return (
+//         <div className="h-full w-full flex flex-col relative bg-black">
+//             {/* Header */}
+//             <div className="absolute top-0 left-0 right-0 p-4 z-20 flex justify-between items-center bg-gradient-to-b from-black/80 to-transparent">
+//                 <button 
+//                     onClick={onBack}
+//                     className={`flex items-center gap-2 text-white/80 hover:${themeColors.text} transition-colors`}
+//                 >
+//                     <ChevronLeft size={24} />
+//                     <span className="font-bold uppercase text-sm tracking-widest">Back to Timeline</span>
+//                 </button>
+//                 <div className="text-right">
+//                     <h2 className={`${themeColors.text} font-black uppercase italic text-lg`}>{episode.season}</h2>
+//                     <p className="text-white font-bold text-sm">{episode.title}</p>
+//                 </div>
+//             </div>
+
+//             {/* Video Player Container */}
+//             <div className="flex-1 flex items-center justify-center bg-slate-900 relative group">
+//                 {embedUrl ? (
+//                     <iframe 
+//                         src={embedUrl} 
+//                         className={`w-full h-full md:max-w-5xl md:h-[70vh] border-0 shadow-2xl ${themeColors.shadow}`}
+//                         allow="autoplay; fullscreen"
+//                         allowFullScreen
+//                         title={episode.title}
+//                     ></iframe>
+//                 ) : (
+//                     <div className="flex flex-col items-center justify-center text-slate-500 gap-4 p-8 border-2 border-slate-700 border-dashed rounded-xl">
+//                         <AlertCircle size={48} />
+//                         <div className="text-center">
+//                             <h3 className="text-xl font-bold text-slate-300 mb-1">Stream Unavailable</h3>
+//                             <p className="text-sm">The video source for this episode hasn't been added to the archives yet.</p>
+//                         </div>
+//                     </div>
+//                 )}
+//             </div>
+
+//             {/* Controls Bar */}
+//             <div className="bg-slate-900 border-t border-white/10 p-4 md:p-6 z-20">
+//                 <div className="max-w-4xl mx-auto flex items-center justify-between gap-4">
+//                     <button 
+//                         onClick={() => onNavigate('prev')}
+//                         className="flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-white transition-all active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed"
+//                         disabled={episode.episodeNumber <= 1}
+//                     >
+//                         <SkipBack size={20} />
+//                         <span className="hidden md:inline font-bold text-sm uppercase">Previous Ep</span>
+//                     </button>
+
+//                     <div className="text-center">
+//                         <span className="block text-slate-400 text-[10px] uppercase tracking-widest font-bold">Now Watching</span>
+//                         <span className="block text-white font-black text-lg uppercase italic truncate max-w-[200px] md:max-w-md">
+//                             {episode.title}
+//                         </span>
+//                     </div>
+
+//                     <button 
+//                         onClick={() => onNavigate('next')}
+//                         className={`flex items-center gap-2 px-4 py-2 rounded-lg ${themeColors.bg} ${themeColors.hoverBg} text-white transition-all active:scale-95 shadow-lg ${themeColors.shadow}`}
+//                     >
+//                         <span className="hidden md:inline font-bold text-sm uppercase">Next Ep</span>
+//                         <SkipForward size={20} />
+//                     </button>
+//                 </div>
+//             </div>
+//         </div>
+//     );
+// };
+
 const WatchPage = ({ episode, onNavigate, onBack }) => {
     if (!episode) return null;
 
@@ -570,8 +666,8 @@ const WatchPage = ({ episode, onNavigate, onBack }) => {
             case 'purple': return { text: 'text-purple-400', bg: 'bg-purple-500', hoverBg: 'hover:bg-purple-400', shadow: 'shadow-purple-500/20' };
             case 'zinc': return { text: 'text-slate-400', bg: 'bg-slate-500', hoverBg: 'hover:bg-slate-400', shadow: 'shadow-slate-500/20' };
             case 'orange': return { text: 'text-orange-400', bg: 'bg-orange-500', hoverBg: 'hover:bg-orange-400', shadow: 'shadow-orange-500/20' };
-          case 'pink': return { text: 'text-pink-400', bg: 'bg-pink-500', hoverBg: 'hover:bg-pink-500', shadow: 'shadow-pink-500/50' };
-          case 'lime': return { text: 'text-lime-400', bg: 'bg-lime-500', hoverBg: 'hover:bg-lime-500', shadow: 'shadow-lime-500/50' };
+            case 'pink': return { text: 'text-pink-400', bg: 'bg-pink-500', hoverBg: 'hover:bg-pink-500', shadow: 'shadow-pink-500/50' };
+            case 'lime': return { text: 'text-lime-400', bg: 'bg-lime-500', hoverBg: 'hover:bg-lime-500', shadow: 'shadow-lime-500/50' };
             default: return { text: 'text-yellow-400', bg: 'bg-yellow-500', hoverBg: 'hover:bg-yellow-400', shadow: 'shadow-yellow-500/20' };
         }
     };
@@ -579,9 +675,13 @@ const WatchPage = ({ episode, onNavigate, onBack }) => {
     const themeColors = getThemeClasses(episode.theme);
 
     return (
-        <div className="h-full w-full flex flex-col relative bg-black">
-            {/* Header */}
-            <div className="absolute top-0 left-0 right-0 p-4 z-20 flex justify-between items-center bg-gradient-to-b from-black/80 to-transparent">
+        // FIX 1: Changed h-full to min-h-screen and allowed overflow-y-auto so you can scroll on small screens
+        <div className="min-h-screen w-full flex flex-col bg-black overflow-y-auto">
+            
+            {/* FIX 2: Removed 'absolute'. This is now a static block that pushes content down. 
+                Added sticky top-0 so it stays visible if you scroll, but doesn't overlap initially. 
+            */}
+            <div className="w-full p-4 z-50 flex justify-between items-center bg-slate-900 border-b border-white/10 sticky top-0 shadow-lg">
                 <button 
                     onClick={onBack}
                     className={`flex items-center gap-2 text-white/80 hover:${themeColors.text} transition-colors`}
@@ -591,22 +691,30 @@ const WatchPage = ({ episode, onNavigate, onBack }) => {
                 </button>
                 <div className="text-right">
                     <h2 className={`${themeColors.text} font-black uppercase italic text-lg`}>{episode.season}</h2>
-                    <p className="text-white font-bold text-sm">{episode.title}</p>
+                    <p className="text-white font-bold text-sm hidden md:block">{episode.title}</p>
+                    {/* Mobile only simplified title if needed */}
+                    <p className="text-white font-bold text-xs md:hidden">Ep {episode.episodeNumber}</p>
                 </div>
             </div>
 
-            {/* Video Player Container */}
-            <div className="flex-1 flex items-center justify-center bg-slate-900 relative group">
+            {/* FIX 3: Added vertical padding (py-8) and ensures flex-1 pushes footer down. 
+                Removed 'h-full' constraints that locked the layout.
+            */}
+            <div className="flex-1 flex flex-col items-center justify-center w-full py-8 px-4 md:px-8">
                 {embedUrl ? (
-                    <iframe 
-                        src={embedUrl} 
-                        className={`w-full h-full md:max-w-5xl md:h-[70vh] border-0 shadow-2xl ${themeColors.shadow}`}
-                        allow="autoplay; fullscreen"
-                        allowFullScreen
-                        title={episode.title}
-                    ></iframe>
+                    // FIX 4: Changed formatting to aspect-video. 
+                    // This ensures it fits on phones without being too tall, and respects width on laptops.
+                    <div className="w-full max-w-5xl aspect-video relative rounded-xl overflow-hidden shadow-2xl ring-1 ring-white/10">
+                        <iframe 
+                            src={embedUrl} 
+                            className={`w-full h-full border-0 ${themeColors.shadow}`}
+                            allow="autoplay; fullscreen"
+                            allowFullScreen
+                            title={episode.title}
+                        ></iframe>
+                    </div>
                 ) : (
-                    <div className="flex flex-col items-center justify-center text-slate-500 gap-4 p-8 border-2 border-slate-700 border-dashed rounded-xl">
+                    <div className="flex flex-col items-center justify-center text-slate-500 gap-4 p-8 border-2 border-slate-700 border-dashed rounded-xl m-10">
                         <AlertCircle size={48} />
                         <div className="text-center">
                             <h3 className="text-xl font-bold text-slate-300 mb-1">Stream Unavailable</h3>
@@ -614,21 +722,24 @@ const WatchPage = ({ episode, onNavigate, onBack }) => {
                         </div>
                     </div>
                 )}
+                
+                {/* Title below video for mobile visibility since header is small */}
+                <h1 className="md:hidden text-white font-black uppercase italic text-xl mt-6 text-center">{episode.title}</h1>
             </div>
 
-            {/* Controls Bar */}
-            <div className="bg-slate-900 border-t border-white/10 p-4 md:p-6 z-20">
+            {/* Controls Bar - Stays at bottom of flow, but user can scroll to reach it if screen is short */}
+            <div className="w-full bg-slate-900 border-t border-white/10 p-4 md:p-6 z-20 mt-auto">
                 <div className="max-w-4xl mx-auto flex items-center justify-between gap-4">
                     <button 
                         onClick={() => onNavigate('prev')}
-                        className="flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-white transition-all active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed"
+                        className="flex items-center gap-2 px-4 py-3 rounded-lg bg-slate-800 hover:bg-slate-700 text-white transition-all active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed"
                         disabled={episode.episodeNumber <= 1}
                     >
                         <SkipBack size={20} />
                         <span className="hidden md:inline font-bold text-sm uppercase">Previous Ep</span>
                     </button>
 
-                    <div className="text-center">
+                    <div className="text-center hidden md:block">
                         <span className="block text-slate-400 text-[10px] uppercase tracking-widest font-bold">Now Watching</span>
                         <span className="block text-white font-black text-lg uppercase italic truncate max-w-[200px] md:max-w-md">
                             {episode.title}
@@ -637,7 +748,7 @@ const WatchPage = ({ episode, onNavigate, onBack }) => {
 
                     <button 
                         onClick={() => onNavigate('next')}
-                        className={`flex items-center gap-2 px-4 py-2 rounded-lg ${themeColors.bg} ${themeColors.hoverBg} text-white transition-all active:scale-95 shadow-lg ${themeColors.shadow}`}
+                        className={`flex items-center gap-2 px-4 py-3 rounded-lg ${themeColors.bg} ${themeColors.hoverBg} text-white transition-all active:scale-95 shadow-lg ${themeColors.shadow}`}
                     >
                         <span className="hidden md:inline font-bold text-sm uppercase">Next Ep</span>
                         <SkipForward size={20} />
