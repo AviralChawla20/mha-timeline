@@ -487,7 +487,7 @@ const libraryData = [
     "date": "5 June 2018",
     "category": "Main Series",
     "language": "English",
-    "description": "The students of Class 1-A have reached another milestone—the Provisional Licensing Exam. After making it through the first part of the test, they ready themselves for the next phase, which takes place in a simulated disaster area. Midoriya and his friends have to rescue as many victims as they can..."
+    "description": "The students of Class 1-A have reached another milestone—the Provisional Licensing Exam. After making it through the first part of the test, they ready themselves for the next phase, which takes place in a simulated disaster area. Midoriya and his friends have to rescue as many victims as they can, and although the students of rival Shiketsu High are technically supposed to be helping, competition between them is fierce and even dangerous! As the scenario unfolds and villains arrive to shake things up, the U.A. students will have to find new ways to work with each other and make use of their Quirks."
   },
   {
     "id": "vol14",
@@ -497,7 +497,7 @@ const libraryData = [
     "date": "7 August 2018",
     "category": "Main Series",
     "language": "English",
-    "description": "Summer vacation is over, and it’s back to school for the students of U.A. High! But before classes can get started, Midoriya and Bakugo need to settle a beef between them that’s been a long time coming..."
+    "description": "Summer vacation is over, and it’s back to school for the students of U.A. High! But before classes can get started, Midoriya and Bakugo need to settle a beef between them that’s been a long time coming. Even if they can get past this bump in the road on the way to becoming superheroes, the hurdles will just keep getting higher and higher—the hero work studies in the upcoming year will bring them even closer to their goal…or their destruction!"
   },
   {
     "id": "vol15",
@@ -507,7 +507,7 @@ const libraryData = [
     "date": "2 October 2018",
     "category": "Main Series",
     "language": "English",
-    "description": "A new and sinister enemy appears in the form of Chisaki Kai, the young leader of the Hassaikai yakuza gang..."
+    "description": "A new and sinister enemy appears in the form of Chisaki Kai, the young leader of the Hassaikai yakuza gang. Looking to fill the power vacuum left by All For One, Chisaki makes contact with the League of Villains to gain possible support. When a chance run-in with a scared little girl brings Midoriya and his mentor Mirio face-to-face with Chisaki, none of them have any idea how much their lives are about to change."
   },
   {
     "id": "vol16",
@@ -517,7 +517,17 @@ const libraryData = [
     "date": "4 December 2018",
     "category": "Main Series",
     "language": "English",
-    "description": "The Hassaikai crime gang, led by the young boss Chisaki, has been working on a plan to distribute a Quirk-destroying drug..."
+    "description": "The Hassaikai crime gang, led by the young boss Chisaki, has been working on a plan to distribute a Quirk-destroying drug. The key to this evil scheme is the young girl Eri, held prisoner in Chisaki’s hideout. Nighteye asks other heroes to form a team to launch a rescue attempt—and the students of Class 1-A are going into the lion’s den with them! But Nighteye, who can see the future, refuses to look at the fates of anyone on the mission…"
+  },
+  {
+    "id": "vol17",
+    "title": "Volume 17: Lemillion",
+    "image": "https://m.media-amazon.com/images/I/8163ycaXS3L._SY466_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "9 February 2019",
+    "category": "Main Series",
+    "language": "English",
+    "description": "The raid on the Hassaikai gang is in full swing, and the heroes plunge into the darkness toward their ultimate confrontation. Lemillion engages Overhaul in an attempt to rescue Eri, and the battle reaches a new level of intensity. Midoriya is desperate to help his mentor, but what fate has Nighteye foreseen for them all in this clash? And does the key to Midoriya’s survival lie in Eri herself?"
   },
   {
     "id": "vol18",
@@ -527,7 +537,7 @@ const libraryData = [
     "date": "2 April 2019",
     "category": "Main Series",
     "language": "English",
-    "description": "Midoriya is in the fight of his life—an all-out battle with Overhaul..."
+    "description": "Midoriya is in the fight of his life—an all-out battle with Overhaul, who has unleashed his terrifying power. Midoriya is matching it with his own power, pushing One For All to 100 percent. Only by relying on Eri’s restoration Quirk can he hope to take down Overhaul. If Midoriya manages to walk away from this fight, his life will never be the same again…"
   },
   {
     "id": "vol19",
@@ -537,7 +547,7 @@ const libraryData = [
     "date": "4 June 2019",
     "category": "Main Series",
     "language": "English",
-    "description": "In the wake of tragedy, Class 1-A prepares for the upcoming culture festival..."
+    "description": "In the wake of tragedy, Class 1-A prepares for the upcoming culture festival. While the students are busy planning for success, other forces are at work with their own agendas, and Midoriya, amid the preparations, continues to train with All Might. But when he runs into the failed hero Gentle Criminal, what lesson will he learn?"
   },
   {
     "id": "vol20",
@@ -547,8 +557,299 @@ const libraryData = [
     "date": "6 August 2019",
     "category": "Main Series",
     "language": "English",
-    "description": "With All Might in retirement, Endeavor takes up the mantle of the number one hero..."
-  }
+    "description": "With All Might in retirement, Endeavor takes up the mantle of the number one hero, a position he’s coveted for years. But now that he has it, he’s not entirely comfortable with the responsibilities and risks that come with it—both heroes and villains are always gunning for number one. What does the future hold for Midoriya, and what do his dreams about One For All mean?"
+  },
+  {
+    "id": "vol21",
+    "title": "Volume 21: Why He Gets Back Up",
+    "image": "https://m.media-amazon.com/images/I/81-BRPwS6-L._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "1 October 2019",
+    "category": "Main Series",
+    "language": "English",
+    "description": "Endeavor and Dabi’s battle rages across the city as Endeavor fights to solidify his new position as the number one hero. Hawks provides support, but where do his loyalties really lie? Midoriya experiences a cryptic dream about the past—what secrets do the previous wielders of One For All have to show him? Then Class 1-A’s joint battle training with Class B begins."
+  },
+  {
+    "id": "vol22",
+    "title": "Volume 22: That Which Is Inherited",
+    "image": "https://m.media-amazon.com/images/I/91dQnpyYL9L._SY466_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "3 December 2019",
+    "category": "Main Series",
+    "language": "English",
+    "description": "In the third match of the joint battle training, the students of Class 1-A have their hands full dealing with the unexpected creativity of Class B’s Quirk use. These matches give everyone a chance to reflect on exactly where they all stand in relation to each other, and on the events in their lives that have brought them to this point. Then it’s time for Bakugo to show what he’s learned…"
+  },
+  {
+    "id": "vol23",
+    "title": "Volume 23: Our Brawl",
+    "image": "https://m.media-amazon.com/images/I/81LQ6ATTrVL._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "4 February 2020",
+    "category": "Main Series",
+    "language": "English",
+    "description": "The final match of the battle training between Class A and Class B continues. Zapped by Shinso’s mind control, Midoriya enters a fugue state where he meets one of the former users of One For All. What powerful Quirks have yet to be unlocked? Midoriya will surely need the full potential of One For All someday, but in the meantime, a new enemy—the Meta Liberation Army—begins to make its moves."
+  },
+  {
+    "id": "vol24",
+    "title": "Volume 24: All It Takes Is One Bad Day",
+    "image": "https://m.media-amazon.com/images/I/81Vc4Dt8hzL._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "2 June 2020",
+    "category": "Main Series",
+    "language": "English",
+    "description": "A new player emerges in the underground world of villains in the form of the Meta Liberation Army. Led by the CEO of the Detnerat Corporation, the MLA is preparing for a new metahuman revolution. In their eyes, the League of Villains is an obstacle to be removed, but Tomura and his band of miscreants aren’t about to go down quietly. It’s army versus league in all-out war, and dominance must be established."
+  },
+  {
+    "id": "vol25",
+    "title": "Volume 25: Tomura Shigaraki: Origin",
+    "image": "https://m.media-amazon.com/images/I/81BvXpFXklL._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "6 October 2020",
+    "category": "Main Series",
+    "language": "English",
+    "description": "Since the terrifying incident when Tomura’s Quirk manifested, only the greatest villain of them all, All For One, has been able to speak to the broken young boy’s heart. The consequences of that fateful meeting play out in the present as Tomura and Re-Destro, the leader of the Meta Liberation Army, battle for supremacy—and if it takes leveling a whole city to sort out who’s on top, so be it!"
+  },
+  {
+    "id": "vol26",
+    "title": "Volume 26: The High Deep Blue Sky",
+    "image": "https://m.media-amazon.com/images/I/81chNo+roXL._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "5 January 2021",
+    "category": "Main Series",
+    "language": "English",
+    "description": "Hawks and the Safety Commission have managed to get their hands on some top secret information. A big villain attack is coming, and the heroes must do all they can to prepare. As part of these preparations, Eraser Head and Present Mic pay a visit to Tartarus prison, while Midoriya, Bakugo and Todoroki begin training under Endeavor in order to become fighters who can stand on their own. In the meantime, the boys will have to survive a dinner party at the Todoroki household!"
+  },
+  {
+    "id": "vol27",
+    "title": "Volume 27: One's Justice",
+    "image": "https://m.media-amazon.com/images/I/81oGQi3K+5L._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "6 April 2021",
+    "category": "Main Series",
+    "language": "English",
+    "description": "The confrontation between the heroes and the villains of the Paranormal Liberation Front is about to kick off! With so much at stake, even the students of U.A. have joined the heroes to help in the coming battles. Within the PLF, Hawks continues to play a dangerous game as a double agent, but the villains have fearsome resources of their own, including whatever lurks in the doctor’s lab. Plus, with every moment that passes, Tomura Shigaraki comes closer to his ultimate form… When it all gets started, there won’t be any going back!"
+  },
+  {
+    "id": "vol28",
+    "title": "Volume 28: The Thrill of Destruction",
+    "image": "https://m.media-amazon.com/images/I/81Ca0MnQELL._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "1 June 2021",
+    "category": "Main Series",
+    "language": "English",
+    "description": "The all-out war against the Paranormal Liberation Front continues at the hospital and the mountain villa! Mirko desperately battles High-Ends in order to reach Tomura’s stasis tank, knowing exactly how much is at stake if she fails. At the PLF hideout, Dabi is determined to roast Hawks, but Tokoyami isn’t about to let his mentor fall. Meanwhile, while helping to evacuate the city, Midoriya senses an ominous presence in the hospital… With things going from bad to worse, and the heroes’ forces battered and stretched thin, Midoriya realizes the time has come for him to join the fight, even if it may be his last."
+  },
+  {
+    "id": "vol29",
+    "title": "Volume 29: Katsuki Bakugo Rising",
+    "image": "https://m.media-amazon.com/images/I/815ePWe0QNL._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "7 September 2021",
+    "category": "Main Series",
+    "language": "English",
+    "description": "Tomura Shigaraki has finally awakened, and as he begins to unleash his savage powers, the heroes realize it’s going to take everyone and everything they have to stop him. Several heroes have been lost already, and even as the number one hero, Endeavor, takes on Tomura, Midoriya and Bakugo must put themselves on the line. Meanwhile, the massive villain Gigantomachia rampages toward Jaku City, and it seems nothing can stop him—but the students of U.A. are determined to succeed or die trying…"
+  },
+  {
+    "id": "vol30",
+    "title": "Volume 30: Dabi's Dance",
+    "image": "https://m.media-amazon.com/images/I/71DY51qxApL._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "1 March 2022",
+    "category": "Main Series",
+    "language": "English",
+    "description": "Midoriya and Tomura have finally come to blows and the battle intensifies as Tomura tries to steal One For All. The clash extends into the One For All spirit realm, where the previous users and even All For One join the struggle. While the battle for the ultimate Quirk rages, the other heroes and villains duke it out. Ochaco finds herself taking on Toga, who doesn’t want a fight so much as a heart-to-heart? Then, Dabi finally arrives in Jaku City with a shocking revelation…"
+  },
+  {
+    "id": "vol31",
+    "title": "Volume 31: Izuku Midoriya and Toshinori Yagi",
+    "image": "https://m.media-amazon.com/images/I/71QxQ+x1alL._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "5 July 2022",
+    "category": "Main Series",
+    "language": "English",
+    "description": "In the aftermath of the battle in Jaku City, the forces of good are reeling. With so many heroes dead, it seems like society itself is on the verge of collapse. Although Midoriya and the others have managed to drive off Tomura, All For One is only just getting started. As the dust settles, the Todoroki family must finally face their troubled past, and Midoriya begins to understand what One For All really is and that reaching his full potential might test his convictions…"
+  },
+  {
+    "id": "vol32",
+    "title": "Volume 32: Your Turn",
+    "image": "https://m.media-amazon.com/images/I/81w8zife3TL._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "4 October 2022",
+    "category": "Main Series",
+    "language": "English",
+    "description": "With society wavering on the verge of collapse in the wake of the recent chaos, Midoriya has left his school and friends behind in order to save whatever lives he can out on the streets and lure All For One into the open. But the mastermind villain has his own plans and sends villains for hire after Midoriya, including one familiar face. Chief among these hired guns is Lady Nagant—a fallen former hero who delivers plenty of bang for her buck."
+  },
+  {
+    "id": "vol33",
+    "title": "Volume 33: From Class A to One For All",
+    "image": "https://m.media-amazon.com/images/I/81d6Cqu7GoL._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "7 February 2023",
+    "category": "Main Series",
+    "language": "English",
+    "description": "Knowing that All For One has put a target on his back, Midoriya has left U.A., hoping to draw the villains away from everyone he cares about. But his friends know the newest bearer of One For All shouldn’t handle this burden alone, so they set out to bring him back. The forces of good need every hero they can find as the unfolding crisis in Japan now has global ramifications, with even foreign heroes itching to join the fight…"
+  },
+  {
+    "id": "vol34",
+    "title": "Volume 34: United States of America",
+    "image": "https://m.media-amazon.com/images/I/811WD+Wwf9L._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "8 June 2023",
+    "category": "Main Series",
+    "language": "English",
+    "description": "All For One’s will has taken root in Tomura’s mind, and this new entity is now a global threat. Even so, the United Nations is hesitant to dispatch heroes to Japan, but Star and Stripe—the U.S.A.’s number one hero—arrives to tackle this menace head-on. In the skies over the Pacific, the combatants size each other up, trying to gain an advantage, but there’s no telling who’ll be left standing after the dust settles on this epic duel…"
+  },
+  {
+    "id": "vol35",
+    "title": "Volume 35: Battle Flame",
+    "image": "https://m.media-amazon.com/images/I/81PrVZSWhaL._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "5 September 2023",
+    "category": "Main Series",
+    "language": "English",
+    "description": "The ultimate war between heroes and villains looms in the near future as both sides regroup. Japan’s heroes weave their plans in the lead-up, but will spies within U.A. give it all away? The Hero Course students will have their parts to play as well, and Midoriya himself will have a major role. If things work out, the heroes hope to divide and conquer, but even the best-laid plans rarely survive contact with the enemy…"
+  },
+  {
+    "id": "vol36",
+    "title": "Volume 36: Two Flashfired",
+    "image": "https://m.media-amazon.com/images/I/81mydGNiOAL._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "5 December 2023",
+    "category": "Main Series",
+    "language": "English",
+    "description": "The plan to engage the villains on the heroes’ terms has mostly succeeded. Now in different locations around Japan, the heroes and U.A. students take on the villains in all-out battles! First, Todoroki squares off against Dabi with terrifying intensity. Elsewhere, Endeavor and Hawks hope to turn the tables on All For One, but the villain mastermind has one last trick up his sleeve. Finally, it’s Tomura’s new and improved body versus the crew at the airborne U.A., where the youngest heroes have critical roles to play!"
+  },
+  {
+    "id": "vol37",
+    "title": "Volume 37: Those Who Defend, Those Who Violate",
+    "image": "https://m.media-amazon.com/images/I/81SOYxpzU3L._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "5 March 2024",
+    "category": "Main Series",
+    "language": "English",
+    "description": "The terrifying fusion of Tomura and All For One now seems unstoppable. Since the villains have the upper hand, even the president of the United States is considering the unthinkable—capitulating to Tomura. But Mirko, Edgeshot, and Jeanist are still on the scene, holding on for dear life. The heroes’ big plan was always to pit Midoriya against Tomura, and when the young hero finally arrives and sees what’s happened, all bets are off—Midoriya’s ready to face his deadly rival!"
+  },
+  {
+    "id": "vol38",
+    "title": "Volume 38: Hopes",
+    "image": "https://m.media-amazon.com/images/I/81G4Gy7S4xL._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "4 June 2024",
+    "category": "Main Series",
+    "language": "English",
+    "description": "In the desperate battle with All For One and his minions, the U.A. students are pushing themselves to their absolute limits. Everywhere, the villains have the upper hand. As the floating U.A. island falls out of the sky, Ochaco and Asui fight Himiko Toga, and Midoriya squares off with Tomura. All For One’s new form appears all but unstoppable, and if he reaches Tomura, all is lost. But one hero stands in his way…"
+  },
+  {
+    "id": "vol39",
+    "title": "Volume 39: Battle Without A Quirk",
+    "image": "https://m.media-amazon.com/images/I/81HdBTnVtHL._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "1 October 2024",
+    "category": "Main Series",
+    "language": "English",
+    "description": "Endeavor and Dabi clash as the villain reaches critical mass, but Endeavor’s path to victory may also lead to his own destruction. Elsewhere, Ochaco tries to talk Himiko Toga down. She’ll have to find something inside Toga to appeal to before it’s too late. Both of these battles circle the main event—All Might versus All For One—in a showdown that’s been a long time coming. But All Might is a shadow of his former self—can he still go the distance?"
+  },
+  {
+    "id": "vol40",
+    "title": "Volume 40: The End of an Era, and...",
+    "image": "https://m.media-amazon.com/images/I/810xbKIOp5L._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "11 February 2025",
+    "category": "Main Series",
+    "language": "English",
+    "description": "Only one man is walking away from the epic rematch between All Might and All For One. All Might’s superpowers may be long gone, but he’s no less of a superhero as he throws everything he’s got at the diabolical mastermind. Meanwhile, All For One wants nothing more than to reach Tomura—his ideal vessel. With the whole world watching and All Might hanging on by his fingernails, one young protégé of his might have to step up to save the day."
+  },
+  {
+    "id": "vol41",
+    "title": "Volume 41: Overlay",
+    "image": "https://m.media-amazon.com/images/I/81vg9LPebQL._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "3 June 2025",
+    "category": "Main Series",
+    "language": "English",
+    "description": "Midoriya’s epic final battle with Shigaraki reaches its earth-shattering crescendo! With Danger Sense stolen away and the villain threatening to wipe Japan off the map, Midoriya has to get really creative with his Quirks to survive. The Second’s plan to smash the vestiges of One For All into the core of Shigaraki’s psychic space is the last chance the heroes have to stop All For One’s grand schemes from coming to fruition. But first, Midoriya has to land a solid punch"
+  },
+  {
+    "id": "vol42",
+    "title": "Volume 42: I Am Here!",
+    "image": "https://m.media-amazon.com/images/I/81XBuM1B0-L._SL1500_.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "21 October 2025",
+    "category": "Main Series",
+    "language": "English",
+    "description": "For a time, the fate of the world was balanced on a knife’s edge between salvation and doom, held in the palm of Izuku Midoriya’s hand. Everything was riding on the outcome of the Quirk-based war to end all wars. What became of the students and staff of U.A. High? How did they rebuild their lives after the epic conflict? Did superpowered society come away with the lessons it needed to learn? Find out in the final volume of My Hero Academia!"
+  },
+  {
+    "id": "vol42",
+    "title": "Volume 42 (Variant Cover)",
+    "image": "https://prodimage.images-bn.com/pimages/9781974762194_p1_v2_s1200x1200.jpg",
+    "author": "Kohei Horikoshi",
+    "date": "21 October 2025",
+    "category": "Main Series",
+    "language": "English",
+    "description": "For a time, the fate of the world was balanced on a knife’s edge between salvation and doom, held in the palm of Izuku Midoriya’s hand. Everything was riding on the outcome of the Quirk-based war to end all wars. What became of the students and staff of U.A. High? How did they rebuild their lives after the epic conflict? Did superpowered society come away with the lessons it needed to learn? Find out in the final volume of My Hero Academia!"
+  },
+  {
+    "id": "vol42",
+    "title": "Volume 42 (Variant Cover)",
+    "image": "https://i.ibb.co/kjc7pwH/1974762203.png",
+    "author": "Kohei Horikoshi",
+    "date": "21 October 2025",
+    "category": "Main Series",
+    "language": "English",
+    "description": "For a time, the fate of the world was balanced on a knife’s edge between salvation and doom, held in the palm of Izuku Midoriya’s hand. Everything was riding on the outcome of the Quirk-based war to end all wars. What became of the students and staff of U.A. High? How did they rebuild their lives after the epic conflict? Did superpowered society come away with the lessons it needed to learn? Find out in the final volume of My Hero Academia!"
+  },
+  {
+    "id": "vol42",
+    "title": "Volume 42 (Variant Cover)",
+    "image": "https://i.ibb.co/Psb7DxpN/Screenshot-2025-11-24-at-12-12-18-AM.png",
+    "author": "Kohei Horikoshi",
+    "date": "21 October 2025",
+    "category": "Main Series",
+    "language": "English",
+    "description": "For a time, the fate of the world was balanced on a knife’s edge between salvation and doom, held in the palm of Izuku Midoriya’s hand. Everything was riding on the outcome of the Quirk-based war to end all wars. What became of the students and staff of U.A. High? How did they rebuild their lives after the epic conflict? Did superpowered society come away with the lessons it needed to learn? Find out in the final volume of My Hero Academia!"
+  },
+  {
+    "id": "vol0",
+    "title": "Volume Origin",
+    "image": "https://i.ibb.co/B5gQC4r1/Volume-Origin.png",
+    "author": "Kohei Horikoshi",
+    "date": "3 August 2018",
+    "category": "Movie Tie-In",
+    "language": "Japanese",
+    "description": "This book includes information from the movie! So please be careful and read it at your own risk."
+  },
+  {
+    "id": "volr",
+    "title": "Volume Rising",
+    "image": "https://i.ibb.co/q4dczmT/Volume-Rising.png",
+    "author": "Kohei Horikoshi",
+    "date": "20 December 2019",
+    "category": "Movie Tie-In",
+    "language": "Japanese",
+    "description": "The second movie! Thank you for coming! The animation production team has made another awesome movie! Please come and see Class 1-A going Plus Ultra!"
+  },
+  {
+    "id": "volw",
+    "title": "Volume World Heroes",
+    "image": "https://i.ibb.co/2Q4v3kb/Volume-World-Heroes.png",
+    "author": "Kohei Horikoshi",
+    "date": "6 August 2021",
+    "category": "Movie Tie-In",
+    "language": "English",
+    "description": "The third movie! Thank you for your interest! Isn't it great to have three movies made? Thank you! Thank you world!"
+  },
+  {
+    "id": "voln",
+    "title": "Volume Next",
+    "image": "https://i.ibb.co/KzS4Hm0B/Volume-Next.png",
+    "author": "Kohei Horikoshi",
+    "date": "2 August 2024",
+    "category": "Movie Tie-In",
+    "language": "Japan",
+    "description": "The fourth film! I'm so thankful to everyone who watched it! People sometimes tell me that working hard is a given, but even though it's normal, I still believe it's cool! I'd like to think someone doing their best is super cool!"
+  },
+  
 ];
 
 // --- COMPONENTS ---
